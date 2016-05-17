@@ -5,6 +5,7 @@
     "files": [
         "css/responsive.dataTables.css"
     ],
+    "style": "css/responsive.dataTables.css",
     "keywords": [
         "responsive",
         "DataTables",
