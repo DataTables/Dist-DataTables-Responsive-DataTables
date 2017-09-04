@@ -3,7 +3,7 @@
     "version": "2.1.1",
     "description": "Responsive for DataTables ",
     "files": [
-        "css/responsive.dataTables.css"
+        "css/**/*.css"
     ],
     "style": "css/responsive.dataTables.css",
     "keywords": [
