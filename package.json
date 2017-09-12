@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-responsive-dt",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "description": "Responsive for DataTables ",
     "files": [
         "css/**/*.css"
@@ -22,8 +22,8 @@
     },
     "dependencies": {
         "jquery": ">=1.7",
-        "datatables.net": ">=1.10.9",
-        "datatables.net-responsive": ">=1.0.7"
+        "datatables.net-dt": "^1.10.15",
+        "datatables.net-responsive": "2.2.0"
     },
     "repository": {
         "type": "git",
