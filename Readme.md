@@ -19,7 +19,7 @@ npm install datatables.net-responsive-dt
 
 ```
 var $ = require( 'jquery' );
-var dt = require( 'datatables.net-responsive-dt}' )( window, $ );
+var dt = require( 'datatables.net-responsive-dt' )( window, $ );
 ```
 
 ### bower
