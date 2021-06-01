@@ -3,6 +3,7 @@
     "description": "Responsive for DataTables with styling for [DataTables](https://datatables.net/)",
     "main": "js/responsive.dataTables.js",
     "style": "css/responsive.dataTables.css",
+    "types": "./types/responsive.dataTables.d.ts",
     "version": "2.2.7",
     "files": [
         "css/**/*.css",
