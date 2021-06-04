@@ -4,23 +4,23 @@
     "main": "js/responsive.dataTables.js",
     "style": "css/responsive.dataTables.css",
     "types": "./types/responsive.dataTables.d.ts",
-    "version": "2.2.7",
+    "version": "2.2.8",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "Responsive",
-                "Datatables",
+        "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-responsive": ">=2.2.7",
-        "datatables.net-dt": ">=1.10.24",
-        "jquery": ">=1.7"
+        "jquery": ">=1.7",
+        "datatables.net-dt": "^1.10.15",
+        "datatables.net-responsive": "2.2.8"
     },
     "moduleType": [
         "globals",
