@@ -4,7 +4,7 @@
     "main": "js/responsive.dataTables.js",
     "style": "css/responsive.dataTables.css",
     "types": "./types/responsive.dataTables.d.ts",
-    "version": "2.2.9",
+    "version": "2.3.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -19,8 +19,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-responsive": ">=2.2.9",
-        "datatables.net-dt": ">=1.11.5",
+        "datatables.net-responsive": ">=2.3.0",
+        "datatables.net-dt": ">=1.12.1",
         "jquery": ">=1.7"
     },
     "moduleType": [
