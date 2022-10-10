@@ -2,12 +2,14 @@
     "name": "datatables.net-responsive-dt",
     "description": "Responsive for DataTables with styling for [DataTables](https://datatables.net/)",
     "main": "js/responsive.dataTables.js",
+    "module": "js/responsive.dataTables.mjs",
     "style": "css/responsive.dataTables.css",
     "types": "./types/responsive.dataTables.d.ts",
     "version": "2.3.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
