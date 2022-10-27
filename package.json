@@ -4,7 +4,7 @@
     "main": "js/responsive.dataTables.js",
     "module": "js/responsive.dataTables.mjs",
     "style": "css/responsive.dataTables.css",
-    "types": "./types/responsive.dataTables.d.ts",
+    "types": "./types/types.d.ts",
     "version": "2.3.0",
     "files": [
         "css/**/*.css",

@@ -10,7 +10,8 @@
         "css/responsive.dataTables.min.css"
     ],
     "types": [
-        "types/responsive.dataTables.d.ts"
+        "types/responsive.dataTables.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/Responsive",
     "last-tag": "2.3.0"
