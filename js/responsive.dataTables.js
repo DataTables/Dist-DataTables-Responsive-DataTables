@@ -28,10 +28,9 @@
 				require('datatables.net-dt')(root, $);
 			}
 
-			if ( ! $.fn.dataTable ) {
+			if ( ! $.fn.dataTable.Responsive ) {
 				require('datatables.net-responsive')(root, $);
 			}
-
 
 			return factory( $, root, root.document );
 		};
