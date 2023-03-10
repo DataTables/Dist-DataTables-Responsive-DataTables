@@ -8,5 +8,4 @@ import Responsive from 'datatables.net-responsive';
 
 
 
-
 export default DataTable;
