@@ -5,7 +5,7 @@
     "module": "js/responsive.dataTables.mjs",
     "style": "css/responsive.dataTables.css",
     "types": "./types/responsive.dataTables.d.ts",
-    "version": "2.4.1",
+    "version": "2.5.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,7 +14,7 @@
     ],
     "keywords": [
         "Responsive",
-                "Datatables",
+        "Datatables",
         "jQuery",
         "table",
         "filter",
