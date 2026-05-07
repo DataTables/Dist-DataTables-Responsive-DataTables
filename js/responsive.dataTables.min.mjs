@@ -1,4 +1,4 @@
-/*! DataTables styling wrapper for Responsive
- * © SpryMedia Ltd - datatables.net/license
+/*! Responsive default styling 4.0.0-beta.1 for DataTables
+ * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
-import jQuery from"jquery";import DataTable from"datatables.net-dt";import Responsive from"datatables.net-responsive";let $=jQuery;export default DataTable;
+import DataTable from"datatables.net-dt";import Responsive from"datatables.net-responsive";export default DataTable;
