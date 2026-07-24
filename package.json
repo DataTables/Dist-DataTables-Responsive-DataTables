@@ -5,7 +5,7 @@
     "module": "js/responsive.dataTables.mjs",
     "style": "css/responsive.dataTables.css",
     "types": "./types/responsive.dataTables.d.ts",
-    "version": "4.0.0-beta.1",
+    "version": "4.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -20,8 +20,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-responsive": "4.0.0-beta.1",
-        "datatables.net-dt": "3.0.0-0"
+        "datatables.net-responsive": "4.0.0",
+        "datatables.net-dt": "^3"
     },
     "author": {
         "name": "SpryMedia Ltd",
