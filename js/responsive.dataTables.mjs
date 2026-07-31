@@ -1,4 +1,4 @@
-/*! Responsive default styling 4.0.0 for DataTables
+/*! Responsive default styling 4.0.1 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
