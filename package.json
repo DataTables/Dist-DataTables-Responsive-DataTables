@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-responsive-dt",
     "description": "Responsive for DataTables with styling for [DataTables](https://datatables.net/)",
-    "main": "js/responsive.dataTables.js",
-    "module": "js/responsive.dataTables.mjs",
-    "style": "css/responsive.dataTables.css",
+    "main": "./js/responsive.dataTables.js",
+    "module": "./js/responsive.dataTables.mjs",
+    "style": "./css/responsive.dataTables.css",
     "types": "./types/responsive.dataTables.d.ts",
     "version": "4.0.3",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Responsive",
@@ -33,5 +32,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/Responsive.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/responsive.dataTables.d.ts",
+            "import": "./js/responsive.dataTables.mjs",
+            "default": "./js/responsive.dataTables.mjs",
+            "require": "./js/responsive.dataTables.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/responsive.dataTables.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
