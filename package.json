@@ -36,9 +36,10 @@
     "exports": {
         ".": {
             "types": "./types/responsive.dataTables.d.ts",
+            "style": "./css/responsive.dataTables.css",
             "import": "./js/responsive.dataTables.mjs",
-            "default": "./js/responsive.dataTables.mjs",
-            "require": "./js/responsive.dataTables.js"
+            "require": "./js/responsive.dataTables.js",
+            "default": "./js/responsive.dataTables.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
